@@ -6,10 +6,12 @@ import Pages.PostPage;
 import Pages.Registration;
 import io.qameta.allure.*;
 import jdk.jfr.Description;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import utility.AllureListeners;
 
 import java.awt.*;
-
+@Listeners(AllureListeners.class)
 public class TestPages extends BaseProgram {
 
     @Test(priority = 3)
