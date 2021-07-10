@@ -14,6 +14,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class CaptureScreenshot extends BaseProgram {
+    /***
+     CaptureScreenshot method used for to take screenshot
+     ScreeshotName is giving for the screenshot name
+     Result giving the sucess or faile test case
+     ***/
+
 
     public void Screenshot(String ScreenshotName, String Result){
         String date = new SimpleDateFormat("yyyy_MM_dd_hhmmss").format(new Date());
