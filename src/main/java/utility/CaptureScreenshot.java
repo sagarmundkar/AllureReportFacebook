@@ -16,8 +16,8 @@ import java.util.Date;
 public class CaptureScreenshot extends BaseProgram {
     /***
      CaptureScreenshot method used for to take screenshot
-     ScreeshotName is giving for the screenshot name
-     Result giving the sucess or faile test case
+     ScreenshotName is giving for the screenshot name
+     Result giving the success or fail test case
      ***/
 
 
