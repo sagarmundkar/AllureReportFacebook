@@ -25,8 +25,8 @@ public class Login extends BaseProgram {
     }
 
     public void LoginApplication() throws InterruptedException {
-        email.sendKeys("shreemundkar@gmail.com");
-        password.sendKeys("SagarMundkar@1234");
+        email.sendKeys("********");
+        password.sendKeys("*****");
         loginbutton.click();
         Thread.sleep(100);
 
